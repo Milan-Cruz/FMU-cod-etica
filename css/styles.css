@@ -1023,6 +1023,13 @@ a:hover.back-to-top {
 /*  Mr M add-ons								 */
 /*************************************************/
 
+.yellow-btn {
+	background-color: #F49E4C;
+}
+.yellow-btn:hover {
+	background-color: #6c757d;
+}
+
 .better-margin {
 	font-size: 1.75rem;
 	margin-top: -0.5rem;
