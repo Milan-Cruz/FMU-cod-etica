@@ -956,7 +956,8 @@ input[type='checkbox'] {
 .footer .fa-stack {
 	width: 2em;
 	margin-bottom: 1.25rem;
-	margin-right: 0.375rem;
+	margin-right: 5rem;
+	/* margin-right: 0.375rem; */
 	font-size: 1.5rem;
 }
 
@@ -1022,6 +1023,12 @@ a:hover.back-to-top {
 /*************************************************/
 /*  Mr M add-ons								 */
 /*************************************************/
+
+.div-imagens {
+	display: flex;                    
+	flex-direction: row;           
+	justify-content: center;
+}
 
 .yellow-btn {
 	background-color: #F49E4C;
