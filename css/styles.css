@@ -142,7 +142,7 @@ a:hover {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #026cfe;
+	border: 1px solid #A1171C;
 	border-radius: 32px;
 	/* border: 1px solid #026cfe; OLDEN */
 	background-color: #A1171C;
@@ -155,9 +155,9 @@ a:hover {
 }
 
 .btn-solid-reg:hover {
-	border: 1px solid #026cfe;
+	border: 1px solid #ed832b;
 	background-color: transparent;
-	color: #026cfe;
+	color: #ed832b;
 	text-decoration: none;
 }
 
@@ -726,7 +726,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #026cfe;
+	color: #ed832b;
 }
 /* end of action Button */
 
