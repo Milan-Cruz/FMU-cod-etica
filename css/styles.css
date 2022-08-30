@@ -1087,11 +1087,54 @@ a:hover.back-to-top {
 }
 
 
+
+
 /*************************/
 /*     Media Queries     */
 /*************************/	
 /* Min-width 768px */
+@media (min-width: 0px) and (max-width:767px) {
+
+	.container {
+		max-width: 90%;
+	}
+
+	.div-imagens img {
+	max-height: 80px;
+	}
+
+	.better-margin {
+		font-size: 1.2rem;
+	}
+
+	.bullet-list li {
+		list-style: none;
+		list-style-image: none;
+		background: url(../images/red-better.png) no-repeat;
+		background-size: 1.4em;
+		padding-left: 2em;
+		padding-bottom: .5em;
+	}
+	
+	.subtitle-red {
+		font-size: 1.1rem;
+	}
+	
+	.text-red-rem {
+		font-size: 0.9rem;
+	}
+	
+	.text-black-rem {
+		font-size: 0.9rem;
+	}
+	
+}
+
 @media (min-width: 768px) {
+
+	.better-margin {
+		font-size: 1.4rem;
+	}
 
 	/* General Styles */
 	.frame-decoration {
